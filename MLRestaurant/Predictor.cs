@@ -35,7 +35,7 @@ namespace MLRestaurant
 
             Console.WriteLine($"Based on \"{inputData}\", the feedback is predicted to be:" +
                 $"{ Environment.NewLine}{ (prediction.Prediction ? "Negative" : "Positive")}" +
-                $"at a {prediction.Probability:P0} confidence");
+                $" at a {prediction.Probability:P0} confidence");
 
         }
     }

@@ -18,7 +18,6 @@ namespace MLRestaurant
             }
 
             var trainingDataView = MlContext.Data.LoadFromTextFile<RestaurantFeedback>(trainingFile);
-            Console.WriteLine("''''''''''");
 
             var dataSplit = MlContext.Data.TrainTestSplit(trainingDataView, testFraction: 0.2);
 

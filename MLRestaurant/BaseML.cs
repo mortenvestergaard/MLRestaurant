@@ -14,7 +14,7 @@ namespace MLRestaurant
         protected readonly MLContext MlContext;
         protected BaseML()
         {
-            MlContext = new MLContext(2020);
+            MlContext = new MLContext(20);
         }
     }
 
